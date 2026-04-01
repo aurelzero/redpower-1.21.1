@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.5,
+  "group": "coke",
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "id": "redpower:coke"
+  }
+}
