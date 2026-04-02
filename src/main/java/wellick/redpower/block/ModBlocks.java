@@ -57,7 +57,7 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON,
                     AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().nonOpaque()));
 public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
-            new DoorBlock(BlockSetType.IRON,
+            new TrapdoorBlock(BlockSetType.IRON,
                     AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().nonOpaque()));
 
 
