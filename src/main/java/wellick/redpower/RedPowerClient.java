@@ -11,5 +11,31 @@ public class RedPowerClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STEEL_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STEEL_TRAPDOOR, RenderLayer.getCutout());
+        Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
+    Redpower.LOGGER.info("REDPOWERCLIENT onInitializeClient() TRIGGERED FOR " + Redpower.MOD_ID);
     }
 }
