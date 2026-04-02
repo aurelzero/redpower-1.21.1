@@ -2,7 +2,16 @@
   "item.redpower.steel_ingot": "Steel Ingot",
   "item.redpower.coke": "Coke",
 
-  "block.redpower.steel_block": "Block of Steel",
+  "item.redpower.chisel": "Chisel",
 
-  "itemgroup.redpower.redpower_ingredients": "RedPower Ingredients"
+
+  "block.redpower.steel_block": "Block of Steel",
+  "block.redpower.magic_block": "§5§kMagic Block",
+
+  "itemgroup.redpower.redpower_ingredients": "RedPower Ingredients",
+
+  "tooltip.redpower.magic_block.tooltip": "§5§kCrazy Magic Block",
+
+  "tooltip.redpower.chisel.shift_up": "[Press §eSHIFT§r for more info]",
+  "tooltip.redpower.chisel.shift_down": "meow meowm oemweo mowem wmomeoe"
 }

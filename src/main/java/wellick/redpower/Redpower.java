@@ -2,6 +2,7 @@ package wellick.redpower;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import wellick.redpower.block.ModBlocks;
@@ -18,5 +19,7 @@ public class Redpower implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		FuelRegistry.INSTANCE.add(ModItems.COKE, 6400);
 	}
 }

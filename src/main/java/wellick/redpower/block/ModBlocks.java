@@ -11,11 +11,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import wellick.redpower.Redpower;
+import wellick.redpower.block.custom.MagicBlock;
 
 public class ModBlocks {
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(AbstractBlock.Settings.create().strength(6f,1200f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
 
@@ -34,6 +37,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.STEEL_BLOCK);
+            entries.add(ModBlocks.MAGIC_BLOCK);
         });
     }
 }

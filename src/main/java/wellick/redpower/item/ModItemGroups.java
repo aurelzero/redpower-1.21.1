@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.COKE);
                         entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     })
                     .build());
 
