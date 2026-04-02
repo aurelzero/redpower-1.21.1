@@ -20,5 +20,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGIC_BLOCK);
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.STEEL_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.STEEL_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.STEEL_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.STEEL_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.STEEL_WALL);
     }
 }

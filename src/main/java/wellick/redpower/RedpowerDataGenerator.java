@@ -2,8 +2,7 @@ package wellick.redpower;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import wellick.redpower.datagen.ModBlockTagProvider;
-import wellick.redpower.datagen.ModItemTagProvider;
+import wellick.redpower.datagen.*;
 
 public class RedpowerDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -12,5 +11,8 @@ public class RedpowerDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

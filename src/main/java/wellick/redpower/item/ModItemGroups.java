@@ -23,6 +23,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModItems.CHISEL);
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.STEEL_DOOR);
+                        entries.add(ModBlocks.STEEL_TRAPDOOR);
+                        entries.add(ModBlocks.STEEL_FENCE);
+                        entries.add(ModBlocks.STEEL_BUTTON);
+                        entries.add(ModBlocks.STEEL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.STEEL_STAIRS);
+                        entries.add(ModBlocks.STEEL_SLAB);
+                        entries.add(ModBlocks.STEEL_FENCE_GATE);
+                        entries.add(ModBlocks.STEEL_WALL);
                     })
                     .build());
 

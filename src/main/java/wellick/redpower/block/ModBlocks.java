@@ -1,8 +1,7 @@
 package wellick.redpower.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -31,6 +30,36 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, Identifier.of(Redpower.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
+
+    public static final Block STEEL_STAIRS = registerBlock("steel_stairs",
+            new StairsBlock(ModBlocks.STEEL_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool()));
+
+    public static final Block STEEL_SLAB = registerBlock("steel_slab",
+                new SlabBlock(AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool()));
+
+    public static final Block STEEL_BUTTON = registerBlock("steel_button",
+            new ButtonBlock(BlockSetType.IRON, 200,
+                    AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().noCollision()));
+
+    public static final Block STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON,
+                    AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().noCollision()));
+    public static final Block STEEL_FENCE = registerBlock("steel_fence",
+                new FenceBlock(AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool()));
+    public static final Block STEEL_FENCE_GATE = registerBlock("steel_fence_gate",
+                new FenceGateBlock(WoodType.ACACIA,
+                        AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool()));
+    public static final Block STEEL_WALL = registerBlock("steel_wall",
+                new WallBlock(AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool()));
+
+    public static final Block STEEL_DOOR = registerBlock("steel_door",
+            new DoorBlock(BlockSetType.IRON,
+                    AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().nonOpaque()));
+public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            new DoorBlock(BlockSetType.IRON,
+                    AbstractBlock.Settings.create().strength(6f, 1200f).requiresTool().nonOpaque()));
+
 
     public static void registerModBlocks(){
         Redpower.LOGGER.info("Registering Mod Blocks for " + Redpower.MOD_ID);
